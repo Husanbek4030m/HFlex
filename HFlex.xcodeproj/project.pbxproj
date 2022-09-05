@@ -8,21 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		8DBA68BA28C33368007E0CC1 /* HFlexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68B928C33368007E0CC1 /* HFlexApp.swift */; };
-		8DBA68BC28C33368007E0CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68BB28C33368007E0CC1 /* ContentView.swift */; };
 		8DBA68BE28C3336A007E0CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA68BD28C3336A007E0CC1 /* Assets.xcassets */; };
 		8DBA68C128C3336A007E0CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA68C028C3336A007E0CC1 /* Preview Assets.xcassets */; };
 		8DBA68C328C3336A007E0CC1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68C228C3336A007E0CC1 /* Persistence.swift */; };
 		8DBA68C628C3336A007E0CC1 /* HFlex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68C428C3336A007E0CC1 /* HFlex.xcdatamodeld */; };
+		8DBA68CF28C333AF007E0CC1 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68CE28C333AF007E0CC1 /* StarterScreen.swift */; };
+		8DBA68D128C33406007E0CC1 /* TaskOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68D028C33406007E0CC1 /* TaskOne.swift */; };
+		8DBA68D328C33460007E0CC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68D228C33460007E0CC1 /* Extensions.swift */; };
+		8DBA68D528C338E7007E0CC1 /* TaskTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68D428C338E7007E0CC1 /* TaskTwo.swift */; };
+		8DBA68D728C33A84007E0CC1 /* TaskThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68D628C33A84007E0CC1 /* TaskThree.swift */; };
+		8DBA68D928C33BCE007E0CC1 /* TaskFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68D828C33BCE007E0CC1 /* TaskFour.swift */; };
+		8DBA68DD28C3413D007E0CC1 /* TaskFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68DC28C3413D007E0CC1 /* TaskFive.swift */; };
+		8DBA68E128C34D5F007E0CC1 /* TextWeightFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68E028C34D5F007E0CC1 /* TextWeightFragment.swift */; };
+		8DBA68E328C34D75007E0CC1 /* TextSizeFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68E228C34D75007E0CC1 /* TextSizeFragment.swift */; };
+		8DBA68E728C34E8E007E0CC1 /* FontDesignFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68E628C34E8E007E0CC1 /* FontDesignFragment.swift */; };
+		8DBA68E928C34FBC007E0CC1 /* TextFormattingFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68E828C34FBC007E0CC1 /* TextFormattingFragment.swift */; };
+		8DBA68EB28C4C4A0007E0CC1 /* TextOtherFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68EA28C4C4A0007E0CC1 /* TextOtherFragment.swift */; };
+		8DBA68EF28C4CD3F007E0CC1 /* TextFieldragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68EE28C4CD3F007E0CC1 /* TextFieldragment.swift */; };
+		8DBA68F128C5BC88007E0CC1 /* ButtonsFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68F028C5BC88007E0CC1 /* ButtonsFragment.swift */; };
+		8DBA68F328C5BEC3007E0CC1 /* ImagesFragments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68F228C5BEC3007E0CC1 /* ImagesFragments.swift */; };
+		8DBA68F528C5C06B007E0CC1 /* TaskSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA68F428C5C06B007E0CC1 /* TaskSix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DBA68B628C33368007E0CC1 /* HFlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBA68B928C33368007E0CC1 /* HFlexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HFlexApp.swift; sourceTree = "<group>"; };
-		8DBA68BB28C33368007E0CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DBA68BD28C3336A007E0CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DBA68C028C3336A007E0CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DBA68C228C3336A007E0CC1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8DBA68C528C3336A007E0CC1 /* HFlex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HFlex.xcdatamodel; sourceTree = "<group>"; };
+		8DBA68CE28C333AF007E0CC1 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		8DBA68D028C33406007E0CC1 /* TaskOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskOne.swift; sourceTree = "<group>"; };
+		8DBA68D228C33460007E0CC1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8DBA68D428C338E7007E0CC1 /* TaskTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwo.swift; sourceTree = "<group>"; };
+		8DBA68D628C33A84007E0CC1 /* TaskThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThree.swift; sourceTree = "<group>"; };
+		8DBA68D828C33BCE007E0CC1 /* TaskFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFour.swift; sourceTree = "<group>"; };
+		8DBA68DC28C3413D007E0CC1 /* TaskFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFive.swift; sourceTree = "<group>"; };
+		8DBA68E028C34D5F007E0CC1 /* TextWeightFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWeightFragment.swift; sourceTree = "<group>"; };
+		8DBA68E228C34D75007E0CC1 /* TextSizeFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeFragment.swift; sourceTree = "<group>"; };
+		8DBA68E628C34E8E007E0CC1 /* FontDesignFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDesignFragment.swift; sourceTree = "<group>"; };
+		8DBA68E828C34FBC007E0CC1 /* TextFormattingFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFormattingFragment.swift; sourceTree = "<group>"; };
+		8DBA68EA28C4C4A0007E0CC1 /* TextOtherFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOtherFragment.swift; sourceTree = "<group>"; };
+		8DBA68EE28C4CD3F007E0CC1 /* TextFieldragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldragment.swift; sourceTree = "<group>"; };
+		8DBA68F028C5BC88007E0CC1 /* ButtonsFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsFragment.swift; sourceTree = "<group>"; };
+		8DBA68F228C5BEC3007E0CC1 /* ImagesFragments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesFragments.swift; sourceTree = "<group>"; };
+		8DBA68F428C5C06B007E0CC1 /* TaskSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +85,11 @@
 		8DBA68B828C33368007E0CC1 /* HFlex */ = {
 			isa = PBXGroup;
 			children = (
+				8DBA68DA28C34127007E0CC1 /* Fragments */,
+				8DBA68CD28C33395007E0CC1 /* Utils */,
+				8DBA68CC28C3338A007E0CC1 /* Screens */,
 				8DBA68B928C33368007E0CC1 /* HFlexApp.swift */,
-				8DBA68BB28C33368007E0CC1 /* ContentView.swift */,
+				8DBA68CE28C333AF007E0CC1 /* StarterScreen.swift */,
 				8DBA68BD28C3336A007E0CC1 /* Assets.xcassets */,
 				8DBA68C228C3336A007E0CC1 /* Persistence.swift */,
 				8DBA68C428C3336A007E0CC1 /* HFlex.xcdatamodeld */,
@@ -71,6 +104,42 @@
 				8DBA68C028C3336A007E0CC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DBA68CC28C3338A007E0CC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA68D028C33406007E0CC1 /* TaskOne.swift */,
+				8DBA68D428C338E7007E0CC1 /* TaskTwo.swift */,
+				8DBA68D628C33A84007E0CC1 /* TaskThree.swift */,
+				8DBA68D828C33BCE007E0CC1 /* TaskFour.swift */,
+				8DBA68DC28C3413D007E0CC1 /* TaskFive.swift */,
+				8DBA68F428C5C06B007E0CC1 /* TaskSix.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DBA68CD28C33395007E0CC1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA68D228C33460007E0CC1 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8DBA68DA28C34127007E0CC1 /* Fragments */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA68E228C34D75007E0CC1 /* TextSizeFragment.swift */,
+				8DBA68E028C34D5F007E0CC1 /* TextWeightFragment.swift */,
+				8DBA68E628C34E8E007E0CC1 /* FontDesignFragment.swift */,
+				8DBA68E828C34FBC007E0CC1 /* TextFormattingFragment.swift */,
+				8DBA68EA28C4C4A0007E0CC1 /* TextOtherFragment.swift */,
+				8DBA68EE28C4CD3F007E0CC1 /* TextFieldragment.swift */,
+				8DBA68F028C5BC88007E0CC1 /* ButtonsFragment.swift */,
+				8DBA68F228C5BEC3007E0CC1 /* ImagesFragments.swift */,
+			);
+			path = Fragments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +213,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBA68C328C3336A007E0CC1 /* Persistence.swift in Sources */,
+				8DBA68D328C33460007E0CC1 /* Extensions.swift in Sources */,
+				8DBA68F128C5BC88007E0CC1 /* ButtonsFragment.swift in Sources */,
+				8DBA68E728C34E8E007E0CC1 /* FontDesignFragment.swift in Sources */,
+				8DBA68D928C33BCE007E0CC1 /* TaskFour.swift in Sources */,
+				8DBA68E128C34D5F007E0CC1 /* TextWeightFragment.swift in Sources */,
+				8DBA68E928C34FBC007E0CC1 /* TextFormattingFragment.swift in Sources */,
 				8DBA68C628C3336A007E0CC1 /* HFlex.xcdatamodeld in Sources */,
-				8DBA68BC28C33368007E0CC1 /* ContentView.swift in Sources */,
+				8DBA68DD28C3413D007E0CC1 /* TaskFive.swift in Sources */,
+				8DBA68EF28C4CD3F007E0CC1 /* TextFieldragment.swift in Sources */,
+				8DBA68D128C33406007E0CC1 /* TaskOne.swift in Sources */,
+				8DBA68EB28C4C4A0007E0CC1 /* TextOtherFragment.swift in Sources */,
+				8DBA68F528C5C06B007E0CC1 /* TaskSix.swift in Sources */,
+				8DBA68E328C34D75007E0CC1 /* TextSizeFragment.swift in Sources */,
+				8DBA68D528C338E7007E0CC1 /* TaskTwo.swift in Sources */,
+				8DBA68D728C33A84007E0CC1 /* TaskThree.swift in Sources */,
 				8DBA68BA28C33368007E0CC1 /* HFlexApp.swift in Sources */,
+				8DBA68CF28C333AF007E0CC1 /* StarterScreen.swift in Sources */,
+				8DBA68F328C5BEC3007E0CC1 /* ImagesFragments.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

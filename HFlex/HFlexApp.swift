@@ -13,7 +13,7 @@ struct HFlexApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
